@@ -19,7 +19,7 @@ intelligence into more of America's weaponry as a means of competing better with
 """
 
 mystr.decode('utf-8').strip() 
-
+mystr.decode('unicode_escape').encode('ascii','ignore')
 #wordList = re.sub("[^\w]", " ",  mystr).split()
 #mystr.replace("'","")
 
